@@ -1,0 +1,19 @@
+{
+  "name": "rbac-smart-contract-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network quickstart",
+    "test": "hardhat run scripts/deploy-and-test.js --network quickstart"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.22.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
