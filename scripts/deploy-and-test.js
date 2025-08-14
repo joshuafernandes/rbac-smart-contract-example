@@ -41,7 +41,7 @@ async function main() {
   await tx.wait();
   console.log("✅️");
   value = await counter.get();
-  console.log("2. Check the value returned after admin decrement - expect 99 :", value.toString()); // Expect 100
+  console.log("2. Check the value returned after user increment - expect 100 :", value.toString()); // Expect 100
   console.log("✅️");
 
   // Interact using Non-registered

@@ -1,0 +1,5 @@
+# exclude network from lang stats
+network/*.sh linguist-vendored
+scripts/**/.sh linguist-vendored
+*.sh linguist-vendored
+

@@ -16,7 +16,18 @@ Keys are public already, calm down ;) Nothing to see...
 
 ### Setup and test
 
-Im using the Besu quickstart network. Update your hardhat [settings](hardhat.config.js) as needed 
+Im using the Besu quickstart [network](./network/).
+
+Start it up with 
+```
+cd network
+./run.sh
+
+# to stop it 
+./remove.sh
+```
+
+Update your hardhat [settings](hardhat.config.js) as needed 
 
 Run with 
 ```
@@ -44,7 +55,7 @@ Deploying with admin: 0xFE3B557E8Fb62b89F4916B721be55cEb828dBd73
 ### Interact using User... 
 1. User calls increment()
 ✅️
-2. Check the value returned after admin decrement - expect 99 : 100
+2. Check the value returned after user increment - expect 100
 ✅️
 
 ### Interact using Non-registered... 
